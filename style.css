@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: hsl(218, 23%, 16%);
+}
+
+.container {
+  text-align: center;
+  width: 510px;
+  background: hsl(219, 19%, 24%);
+  padding: 30px;
+  position: relative;
+  border-radius: 10px;
+}
+.container p {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: hsl(150, 100%, 66%);
+}
+
+.container h1 {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+
+.container .lines {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.container .lines svg {
+  width: 200px;
+}
+
+.container .lines ion-icon {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+
+.container .circle {
+  background: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container svg {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  cursor: pointer;
+}
